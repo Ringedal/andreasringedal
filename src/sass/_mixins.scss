@@ -1,0 +1,20 @@
+// Responsive breakpoints
+@mixin small-down {
+  @media (max-width: px(799)){
+    @content;
+  }
+}
+
+@mixin big-up {
+  @media (min-width: px(800)) {
+    @content;
+  }
+}
+
+//Flex objects
+@mixin flexItem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @content;
+}

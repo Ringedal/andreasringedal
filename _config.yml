@@ -1,0 +1,40 @@
+
+title: Andreas Ringedal - UX Designer and Researcher
+author: Andreas Ringedal
+email: andreas@ringedal.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Andreas Ringedal is a self-employed UX Design and Research consultant based in Sweden.
+  He specializes in design from a user and usability perspective.
+  Main competences are concept design, usability studies and user experience design.
+  Oh, he is also a front-end developer.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://andreasringedal.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social
+github_username:  ringedal
+linkedin_username: andreasringedal
+
+# Footer
+footer-description: >-
+  Andreas Ringedal is a UX and UI Designer.
+
+# Build settings
+markdown: kramdown
+theme: minima
+permalink: /:slug/
+plugins:
+  - jekyll-feed
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - package.json
+  - package-lock.json
+  - gulpfile.js
+  - src

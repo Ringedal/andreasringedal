@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<article class="instance">
+
+
+  <header class="heading">
+    <h1 class="page-title">{{ page.title | escape }}</h1>
+  </header>
+
+
+  <div class="quote">
+    <h2 class="page-title">{{ page.quote | escape }}</h2>
+  </div>
+
+  <aside class="meta">
+    <div class="meta-list">
+      <h3>Agency //</h3>
+      <p>{{ page.agency | escape }}</p>
+    </div>
+    <div class="meta-list">
+      <h3>Client //</h3>
+      <p>{{ page.client | escape }}</p>
+    </div>
+    <div class="meta-list">
+      <h3>Role //</h3>
+      <p>{{ page.skill | escape }}</p>
+    </div>
+  </aside>
+
+  <div class="content article">
+    {{ content }}
+  </div>
+
+  <section id="more-work">
+      {% if page.previous %}
+          {% assign previous = page.previous %}
+      {% else %}
+          {% assign previous = site.posts[0] %}
+      {% endif %}
+      <div class="arrow">
+          <a class="case" href="{{site.baseurl}}{{previous.url}}" title="Previous Post: {{previous.title}}">
+              ← {{previous.title}}
+          </a>
+      </div>
+
+      {% if page.next %}
+          {% assign next = page.next %}
+      {% else %}
+          {% assign last lastPostIndex = site.posts | size | minus: 1 %}
+          {% assign next = site.posts[lastPostIndex] %}
+      {% endif %}
+      <div class="arrow">
+          <a class="case" href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
+              {{next.title}} →
+          </a>
+      </div>
+  </section>
+
+</article>

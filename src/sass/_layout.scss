@@ -1,0 +1,549 @@
+.start {
+  color: var(--bright);
+  background: var(--dark);
+  transition: 0.5s ease;
+}
+
+.invert {
+  color: var(--dark);
+  background: var(--bright);
+}
+
+.header {
+  margin-bottom: $padding*4;
+  @include small-down {
+    &-wrapper {
+      max-width: $header-width;
+      display: flex;
+      align-items: center;
+      padding: $padding 0.4em;
+
+      > a {
+        text-decoration: none;
+      }
+
+      &-logo {
+        margin-right: auto;
+        text-transform: uppercase;
+        font-weight: 900;
+
+        &-skills {
+          font-size: px(14);
+          font-weight: 300;
+          text-transform: none;
+          text-align: center;
+          margin-bottom: 0;
+          margin-top: -0.1em;
+        }
+      }
+
+      &-nav {
+        &-item {
+          text-transform: uppercase;
+          font-size: px(14);
+        }
+
+        &-item:last-child {
+          padding-left: 0.6em;
+        }
+      }
+    }
+  }
+  @include big-up {
+    &-wrapper {
+      max-width: $header-width;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+
+      > a {
+        text-decoration: none;
+      }
+
+      &-logo {
+        margin-right: auto;
+        padding: $padding;
+        color: inherit;
+        font-size: px(16);
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: 900;
+
+        &-skills {
+          font-size: px(14);
+          font-weight: 300;
+          text-transform: none;
+          text-align: center;
+          margin-bottom: 0;
+          margin-top: -0.4em;
+        }
+      }
+
+      &-nav {
+        &-item {
+          padding: $padding;
+          color: inherit;
+          font-size: px(14);
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+.main {
+  //max width main
+  max-width: $content-width;
+  //min height
+  min-height: 80vh;
+  //always center content
+  margin: 0 auto;
+  //padding bottom
+  padding-bottom: $padding;
+
+  &-wrapper {
+    //custom layout for home page
+    .home {
+
+      &-heading{
+        @include small-down{
+          padding: $padding 0 $padding*2 0;
+        }
+
+        @include big-up{
+          padding: $padding*2 0 $padding*4 0;
+        }
+      }
+
+      .ps{
+        @include small-down{
+          font-size: px(12);
+          padding-top: $padding;
+          font-style: italic;
+        }
+
+        @include big-up{
+          font-size: px(14);
+          padding-top: $padding;
+          font-style: italic;
+        }
+      }
+
+      &-case {
+
+        @include small-down{
+          > h2 {
+            font-size: px(16);
+            text-transform: uppercase;
+            padding-top: $padding*2;
+            font-style: italic;
+          }
+
+          &-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+
+            &-item {
+              padding: $padding*2 0;
+              transition: 1.5s ease;
+
+
+
+              &-link {
+                text-decoration: none;
+
+                &-year {
+                  font-size: px(12);
+                  margin-bottom: -0.5em;
+                }
+
+                > h3 {
+                  font-size: px(30);
+                }
+
+                > h3::after{
+                  position: relative;
+                  top: px(-5);
+                  left: px(15);
+                  content: "→";
+                  font-size: px(10);
+                }
+
+                > h4 {
+                  font-size: px(16);
+                }
+              }
+            }
+          }
+
+        }
+
+        @include big-up{
+          > h2 {
+            font-size: px(24);
+            text-transform: uppercase;
+            padding-top: $padding*2;
+            font-style: italic;
+          }
+
+          &-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+
+            &-item {
+              // min-width: px(300);
+              padding: $padding*2 0;
+              transition: 1.5s ease;
+
+              &:hover {
+                background-color: #111;
+                color: white;
+                padding-left: $padding*2;
+              }
+
+              &-link {
+                text-decoration: none;
+
+                &-year {
+                  font-size: px(12);
+                  margin-bottom: -0.25em;
+                }
+
+                > h3 {
+                  font-size: px(36);
+                }
+
+                > h4 {
+                  font-size: px(18);
+                }
+              }
+            }
+          }
+        }
+
+
+      }
+    }
+    //layouts for post and pages
+    .instance {
+      display: grid;
+
+      @include small-down {
+        grid-template-columns: px(10) 1fr px(10);
+        grid-column-gap: px(10);
+
+        > * {
+          grid-column: 2;
+          min-width: 0;
+        }
+
+        .heading {
+          order: 1;
+          padding-bottom: $padding;
+          > h1{
+            font-size: 14vw;
+          }
+        }
+
+        .content {
+          order: 4;
+
+          >h2{
+            padding-bottom: $padding/4;
+          }
+
+          .disclaimer{
+            font-size: px(10);
+            font-style: italic;
+          }
+
+          >p{
+            padding-bottom: $padding;
+          }
+
+          >figure{
+
+            >img{
+              width: 100%;
+              height: auto;
+            }
+
+          }
+        }
+
+        #more-work {
+          order: 5;
+          margin: $padding*2 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .arrow {
+
+            .case {
+              text-decoration: none;
+              transition: 0.5s ease;
+              padding: $padding;
+
+            }
+          }
+        }
+
+        .quote {
+          padding-bottom: $padding*2;
+          order: 3;
+
+          > h2 {
+            font-size: 10vw;
+            font-style: italic;
+            line-height: 1.3;
+          }
+        }
+
+        .meta {
+          order: 2;
+          margin: $padding*2 0;
+          display: flex;
+
+          &-list {
+            flex: 1;
+
+            > h3 {
+              font-size: px(12);
+              text-transform: uppercase;
+            }
+
+            > p {
+              font-size: px(16);
+            }
+
+            > ul > li {
+              font-size: px(16);
+              line-height: 1.3;
+            }
+          }
+        }
+      }
+
+      @include big-up {
+        // grid-template-columns: px(10) px(120) 1fr px(120) px(10);
+        grid-template-columns: px(120) 1fr px(120);
+        grid-gap: px(20);
+
+        > * {
+          grid-column: 2;
+        }
+
+        .heading{
+          padding-bottom: $padding*3;
+        }
+
+        .quote {
+          padding-bottom: $padding*3;
+
+          > h2 {
+            font-size: px(48);
+            font-style: italic;
+            line-height: 1.5;
+          }
+        }
+
+        .meta {
+          padding-left: px(10);
+          grid-column: 1;
+
+
+          &-list {
+            padding-bottom: $padding;
+            > h3 {
+              font-size: px(12);
+              text-transform: uppercase;
+            }
+
+            > p {
+              font-size: px(16);
+            }
+
+            > ul > li {
+              font-size: px(16);
+              line-height: 1.6;
+            }
+          }
+        }
+        .content{
+          display: grid;
+
+          > h2{
+            padding-bottom: $padding/4;
+          }
+
+          .disclaimer{
+            font-size: px(12);
+            font-style: italic;
+          }
+
+          > p{
+            padding-bottom: $padding*2;
+          }
+
+          >figure{
+
+            >img{
+              width: 100%;
+              height: auto;
+            }
+
+          }
+          > p{
+              padding-bottom: $padding;
+            >a{
+            padding: $padding/10;
+          }
+        }
+
+        }
+
+
+
+        #more-work {
+          display: flex;
+          margin: $padding*2 0;
+          justify-content: space-between;
+          align-items: center;
+
+          .arrow {
+
+            .case {
+              text-decoration: none;
+              transition: 0.5s ease;
+              padding: $padding;
+
+            }
+          }
+        }
+
+      }
+
+
+    }
+  }
+}
+
+.pictures{
+  @include small-down{
+    order: 5;
+  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(px(200), 1fr));
+  grid-auto-rows: px(200);
+  grid-auto-flow: dense;
+
+  > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >img{
+      -webkit-filter: sepia(50%);
+      filter: sepia(50%);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .horizontal{
+    grid-column: span 2;
+  }
+
+  .vertical{
+    grid-row: span 2;
+  }
+
+  .big{
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+
+.footer {
+
+  @include small-down {
+    border-top: 1px solid hsla(0, 0%, 7%, 0.5);
+
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      &-social {
+        width: 100%;
+        display: flex;
+
+        &-link {
+          text-transform: uppercase;
+          flex: 1;
+          text-align: center;
+          padding: $padding 0;
+        }
+      }
+
+      &-title {
+        margin: $padding;
+
+        > a {
+          font-size: px(14);
+          padding: $padding;
+
+        }
+      }
+    }
+  }
+
+
+  @include big-up {
+    max-width: $footer-width;
+    margin: 0 auto;
+    padding-top: $padding;
+    border-top: 1px solid hsla(0, 0%, 7%, 0.5);
+
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      &-social {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+
+        &-link {
+          font-size: px(16);
+          padding: $padding/2;
+          text-transform: uppercase;
+        }
+      }
+
+      &-title {
+        margin-top: $padding;
+
+        > a {
+          font-size: px(14);
+          padding: $padding/4;
+        }
+      }
+    }
+  }
+}
+
+.fof{
+  @include flexItem;
+  width: 100vw;
+  height: 100vh;
+  background-color: #111;
+  color: white;
+}

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="instance">
+
+  <header class="heading">
+    <h1 class="page-title">{{ page.header | escape }}</h1>
+  </header>
+
+  <div class="quote">
+    <h2 class="page-title">{{ page.quote | escape }}</h2>
+  </div>
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+  <div class="pictures">
+    <div class="horizontal"><img src="{{ base.url }}/images/h2.jpg" alt="Relaxing on the beach"></div>
+    <div class="vertical"><img src="{{ base.url }}/images/v1.jpg" alt="Picture of Andreas dressed for cold weather"></div>
+    <div class="big"><img src="{{ base.url }}/images/h1.jpg" alt="Sunrise New Zealand"></div>
+    <div class="horizontal"><img src="{{ base.url }}/images/h3.jpg" alt="Fixing a flat tire"></div>
+    <div class="vertical"><img src="{{ base.url }}/images/v2.jpg" alt="Dog drinking from toilet"></div>
+  </div>
+
+</article>

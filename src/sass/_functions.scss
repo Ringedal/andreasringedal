@@ -1,0 +1,32 @@
+/**
+PX TO EM FUNCTION
+*/
+$browser-context: 16;
+
+@function px($pixels, $context: $browser-context) {
+
+  //if context is em value, first convert to px
+  @if (unit($context) == "em" ) {
+    $context: $context * $browser-context;
+  }
+
+  @if (unit($pixels) ) {
+    //strip the units first
+    $pixels: $pixels / ($pixels * 0 + 1);
+  }
+
+  @if (unit($context)) {
+    //strip the units first
+    $context: $context / ($context * 0 + 1);
+  }
+
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1em;
+}

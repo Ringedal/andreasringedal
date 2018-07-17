@@ -1,0 +1,159 @@
+//google fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|PT+Serif:400,400i,700i');
+
+:root {
+  //variables
+  //colors
+  --dark: hsla(0, 0%, 7%, 1);
+  --bright: hsla(0, 0%, 100%, 1);
+  --primary: hsla(35, 95%, 47%, 1);
+}
+
+//header
+$header-height: px(80);
+
+//Max widths
+$content-width: px(1000);
+$header-width: px(1100);
+$footer-width: px(700);
+
+
+//margins and paddings
+$padding: 2em;
+
+//Font styles
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PT Serif', serif;
+  color: inherit;
+}
+
+p,
+a,
+li,
+{
+  font-family: 'Open Sans', sans-serif;
+  color: inherit;
+}
+
+ol{
+  list-style: decimal;
+}
+
+ul{
+  list-style: unset;
+}
+
+//Font sizes
+@include small-down{
+  p,
+  a,
+  li,
+  {
+    font-size: px(16);
+  }
+
+  p{
+    line-height: 1.5;
+  }
+
+  h1{
+    font-size: px(60);
+  }
+
+  h2{
+    font-size: px(32);
+  }
+
+  h3{
+    font-size: px(24);
+  }
+
+  h4{
+    font-size: px(18);
+  }
+
+  ol,
+  ul{
+    padding-left: $padding;
+    padding-bottom: $padding;
+  }
+  li{
+    line-height: 1.5;
+  }
+
+}
+
+@include big-up{
+
+  p,
+  a,
+  li,
+  {
+    font-size: px(18);
+  }
+
+  p{
+    line-height: 1.6;
+  }
+
+  h1{
+    font-size: px(100);
+  }
+
+  h2{
+    font-size: px(60);
+  }
+
+  h3{
+    font-size: px(36);
+  }
+
+  h4{
+    font-size: px(24);
+  }
+  ol,
+  ul{
+    padding-left: $padding;
+    padding-bottom: $padding;
+  }
+  li{
+    line-height: 1.6;
+  }
+
+
+}
+
+a{
+
+  &:link{
+    text-decoration: underline;
+    transition: 0.5s ease;
+  }
+
+  &:visited{
+    text-decoration: line-through;
+  }
+
+  @include big-up {
+    &:hover{
+    text-decoration: none;
+    background: var(--dark);
+    color: var(--bright);
+    }
+  }
+
+  &:active{
+    border: 1px solid #111;
+
+  }
+
+  &:focus{
+    border: 1px solid #111;
+
+  }
+}

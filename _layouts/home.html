@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<section class="home instance">
+
+  <header class="home-heading">
+    <h1 class="home-heading-big">{{ page.heading }}</h1>
+  </header>
+
+  {{ content }}
+
+  <section class="home-case">
+    {% if site.posts.size > 0 %}
+    <h2 class="home-case-header">{{ page.list_title | default: "Posts" }}</h2>
+
+    <ul class="home-case-list">
+      {% for post in site.posts %}
+      <li class="home-case-list-item">
+        <a class="home-case-list-item-link" href="{{ post.url | relative_url }}">
+            {% assign date_format = "%Y" %}
+            <p class="home-case-list-item-link-year">{{ post.date | date: date_format }}</p>
+            <h3>{{ post.excerpt }}</h3>
+            <h4>{{ post.client | escape }}</h4>
+          </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+
+
+</section>
