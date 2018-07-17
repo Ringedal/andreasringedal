@@ -250,6 +250,12 @@
         .content {
           order: 4;
 
+          .inline-quote {
+            font-family: 'PT Serif', serif;
+            font-size: px(32);
+            font-style: italic;
+          }
+
           >h2{
             padding-bottom: $padding/4;
           }
@@ -379,6 +385,12 @@
             padding-bottom: $padding/4;
           }
 
+          .inline-quote {
+            font-family: 'PT Serif', serif;
+            font-size: px(32);
+            font-style: italic;
+          }
+
           .disclaimer{
             font-size: px(12);
             font-style: italic;
@@ -453,6 +465,8 @@
       object-fit: cover;
     }
   }
+
+
 
   .horizontal{
     grid-column: span 2;

@@ -12,20 +12,18 @@ I specialize in the early stages of the design process including research, synth
 "I've worked with major brands like Volvo Cars, Electrolux & AstraZeneca"
 {: .inline-quote}
 
-* Tools and frameworks I like using:
+#### Tools and frameworks I like using:
 * Sketch
 * Principle
 * Adobe CC
 * Blender
-* Open Shape
+* Onshape
 * Sass
 * Jekyll
 * Vue
 * inVision
 
 I've worked with great people from Volvo Cars, Mölnlycke Health Care, AstraZeneca, Bosch, Electrolux, UserTribe, Abilia, Herber among others.
-
-I'm currently broadening my skill set by digging deep into the world of front-end development. In a few months, I'll relocate to Canada for a year on my Working Holiday Visa.
 
 I'm always looking to collaborate with awesome people. If you have your own business or are responsible for your company's design process and would be interested in working together, let me know.
 
