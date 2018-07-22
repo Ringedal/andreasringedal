@@ -12,7 +12,7 @@ skill: UX Research
 Information provided here does not necessarily reflect the views of {{ page.client }} or {{ page.agency }}.
 {: .disclaimer}
 
-Electrolux is transitioning into the digital era by making connectivity and Internet of Things a priority. They had a low-fidelity interactive prototype for controlling a washing machine via a smartphone app. I was hired together with a colleague to perform usability tests, highlight problems and make suggestions for improvements.
+Electrolux is transitioning into the digital era by making connectivity and Internet of Things a priority. They had developed a low-fidelity prototype for controlling a washing machine via a smartphone app. I was hired together with a colleague from inUse to perform usability tests, highlight problems and make suggestions for improvements.
 
 {% include figure.html file="electrolux-aeg-app-1.jpg" alt="Three phones with prototype interface used for usability testing" %}
 
@@ -20,22 +20,14 @@ Electrolux is transitioning into the digital era by making connectivity and Inte
 * Write scripts and questionnaires
 * Set test environment
 * Perform tests
-* Identify problem areas with the app
+* Identify problem areas
 * Deliver test summary
 
-As always when it comes to usability testing (which is also the fun part), be prepared for the unexpected and be totally open towards how other resonate. For these tests, a methodology developed by designers from Electrolux were used, measuring effectiveness, efficiency and satisfaction for every task.
+As always when it comes to usability testing (which is also the fun part), be prepared for the unexpected and be curious how other resonate. For these tests, a methodology developed by designers from Electrolux were used, measuring effectiveness, efficiency and satisfaction for every task.
 
 {% include figure.html file="acreo-ux-lab-2.jpg" alt="Acreo UX lab" %}
 
-Tests were done in Acreo's UX Lab in Stockholm. When arranging the setting we gave top priority to catch and record the phone's screen to see how participants interacted as well as looking at hand gestures. Secondly, we had one camera focusing on the face to catch facial expressions. The microphone was hidden in the towel behind the screen.
-
-{% include figure.html file="acreo-ux-lab-1.jpg" alt="Acreo UX lab" %}
-
-Cameras, microphones and a big see-through mirror for spectators to watch the test. Although participants weren’t aware of the number of people watching they did sense the presence of others. It was a challenge to make participants feel comfortable doing the test, especially for the part when they pretended to operate the washing machine by clicking on a paper prototype.
-
-{% include figure.html file="acreo-ux-lab-3.jpg" alt="Acreo UX lab" %}
-
-Usually, you quickly get a feeling for what most participants are going to struggle with. It’s easy to judge too quickly and draw conclusions but as long as you continue to ask open questions and make sure the participant is thinking aloud, the unexpected insights will come.
+Tests were held in Acreo's UX Lab in Stockholm. When arranging the setting, our top priority was to record the phone's screen to see how participants interacted as well as catching hand gestures. Secondly, we had one camera focusing on the participants face to capture facial expressions. For audio recording, we had a hidden microphone inside a folded towel.
 
 #### Test procedure:
 1. Background questionnaire
@@ -44,9 +36,16 @@ Usually, you quickly get a feeling for what most participants are going to strug
 4. Satisfaction questionnaire
 5. Semi-structured post-use interview
 
+{% include figure.html file="acreo-ux-lab-1.jpg" alt="Acreo UX lab" %}
+
+Although participants weren’t aware of the number of people watching they did sense the presence of others. It was a challenge to make participants feel comfortable doing the test, especially for the part when they pretended to operate a washing machine by clicking on a paper prototype.
+
+{% include figure.html file="acreo-ux-lab-3.jpg" alt="Acreo UX lab" %}
+
+Usually, you quickly get a feeling for in what part of the test most test persons are going to struggle. It’s easy to judge too soon and draw conclusions, but as long as you continue to ask open questions and make sure they resonate about their actions, the unexpected insights will come.
+
 #### In retrospect:
-* Usability testing is necessary and fun
-* This is how you catch the unexpected insights early
-* A well-structured test and report have a bigger impact within the organization
+* Usability testing is how you catch the unexpected ideas early
+* A well-structured test and report have a more significant impact within the organisation
 
 {% include figure.html file="electrolux-aeg-app-2.jpg" alt="Phone with AEG My App interface" %}

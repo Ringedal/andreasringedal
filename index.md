@@ -3,7 +3,8 @@ layout: home
 heading: Hi, I'm Andreas
 list_title: Projects
 ---
-Self-employed UX consultant specializing in research and usability testing. I also design and code. Have a look at some of the projects I've been involved in.
+Self-employed UX consultant, specialising in research and usability testing.
 
-PS. I'm rebuilding my site using VuePress, check back later for animation madness :-)
-{: .ps}
+I also design and code.
+
+Feel free to have a look at some of the projects I've been part of.
