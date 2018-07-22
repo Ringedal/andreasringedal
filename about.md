@@ -1,7 +1,6 @@
 ---
 layout: about
 title: About
-permalink: /about
 header: Curious designer
 quote: '"jack of all trades master of some"'
 ---

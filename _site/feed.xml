@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-17T21:32:56+02:00</updated><id>http://localhost:4000/</id><title type="html">Andreas Ringedal - UX Designer and Researcher</title><subtitle>Andreas Ringedal is a self-employed UX Design and Research consultant based in Sweden. He specializes in design from a user and usability perspective. Main competences are concept design, usability studies and user experience design. Oh, he is also a front-end developer.</subtitle><author><name>Andreas Ringedal</name></author><entry><title type="html">Turbu+</title><link href="http://localhost:4000/astrazeneca/" rel="alternate" type="text/html" title="Turbu+" /><published>2017-07-14T13:20:34+02:00</published><updated>2017-07-14T13:20:34+02:00</updated><id>http://localhost:4000/astrazeneca</id><content type="html" xml:base="http://localhost:4000/astrazeneca/">&lt;p class=&quot;disclaimer&quot;&gt;Information provided here does not necessarily reflect the views of AstraZeneca or inUse.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-22T21:17:28+02:00</updated><id>http://localhost:4000/</id><title type="html">Andreas Ringedal - UX Designer and Researcher</title><subtitle>Andreas Ringedal is a self-employed UX Design and Research consultant based in Sweden. He specializes in design from a user and usability perspective. Main competences are concept design, usability studies and user experience design. Oh, he is also a front-end developer.</subtitle><author><name>Andreas Ringedal</name></author><entry><title type="html">Turbu+</title><link href="http://localhost:4000/astrazeneca/" rel="alternate" type="text/html" title="Turbu+" /><published>2017-07-14T13:20:34+02:00</published><updated>2017-07-14T13:20:34+02:00</updated><id>http://localhost:4000/astrazeneca</id><content type="html" xml:base="http://localhost:4000/astrazeneca/">&lt;p class=&quot;disclaimer&quot;&gt;Information provided here does not necessarily reflect the views of AstraZeneca or inUse.&lt;/p&gt;
 
 &lt;p&gt;What do you get when you mix Medtech, IoT and asthma?&lt;/p&gt;
 
-&lt;p&gt;Turbu+&lt;/p&gt;
+&lt;p&gt;Turbu+!&lt;/p&gt;
 
-&lt;p&gt;By attaching a small device to your asthma inhaler you can easily track your daily inhalations and get reminders on your phone if you missed one.&lt;/p&gt;
+&lt;p&gt;By attaching a small device to your asthma inhaler, you can easily track your daily inhalations and get reminders on your phone if you missed one.&lt;/p&gt;
 
 &lt;h4 id=&quot;goals&quot;&gt;Goals:&lt;/h4&gt;
 &lt;ul&gt;
@@ -14,7 +14,9 @@
   &lt;li&gt;Consider Medtech regulations&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I worked together with colleagues from inUse with implementing new functionality for the Turbu+ solution. It is a complex service with many stakeholders and regulations such as patient data privacy. Turbu+ is supported for various markets hence the solution had to support multi-languages.&lt;/p&gt;
+&lt;p&gt;I worked together with colleagues from inUse with implementing new functionality for the Turbu+ app, which supports various markets. The app itself is for end users, and there is a web portal for doctors who can track their patient’s data.&lt;/p&gt;
+
+&lt;p&gt;For this release, the primary focus was on self-enrollment and symptom tracking.&lt;/p&gt;
 
 &lt;h4 id=&quot;platforms&quot;&gt;Platforms:&lt;/h4&gt;
 &lt;ul&gt;
@@ -23,44 +25,40 @@
   &lt;li&gt;Web&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The app itself is meant for end users but in addition, there is a web portal for doctors who can track their patient’s data.&lt;/p&gt;
+&lt;p&gt;The self-enrollment sequence was more complex from a technical viewpoint. From a user perspective, it was a reasonably simple sign-up process. What we did include in the on-boarding process though, were instructions on how to assemble the device and pair it with the phone via Bluetooth.&lt;/p&gt;
 
-&lt;p&gt;For this release, the main focus was on self-enrollment and symptom tracking.&lt;/p&gt;
+&lt;p&gt;The user does symptom tracking, and the idea of symptom tracking itself was more complicated since everyone is different and experience his or her symptoms in different ways. We spoke to specialists in the field to boil it down to something tangible and useful for the users. Some weeks before the project deadline, the managers decided to bring in a ready solution for symptom tracking as it was clinically tested and approved, a significant factor for companies in the medical field.&lt;/p&gt;
 
-&lt;p&gt;Self-enrollment was heavier from the technical viewpoint. From a user perspective, it was a fairly simple sign-up process. What we did include in the onboarding process though, were instructions on how to assemble the device and pair it with the phone via Bluetooth.&lt;/p&gt;
+&lt;p&gt;The upside was that our solutions were more or less the same, at least an ego boost. The flip-side was that our UI patterns were completely different. Reminding time of the project we focused on finding ways for how to implement the complete solution and make sure it would have the same look and feel like the overall GUI.&lt;/p&gt;
 
-&lt;p&gt;Symptom tracking is done by the user and the idea of symptom tracking itself is complex hence everyone is different and experience his or her symptoms in different ways. We spoke to specialists in the field to boil it down to something tangible and useful for the users. Some weeks before the project deadline, the managers decided to bring in a ready solution for symptom tracking due to the fact that it was clinically tested and approved. A major factor for companies in the medical field.&lt;/p&gt;
-
-&lt;p&gt;The upside was that our solutions were more or less the same, at least an ego boost. The flipside was that our UI patterns were completely different. Reminding time of the project we focused on finding ways for how to implement the ready solutions and make sure it would have a look and feel which reminded of the rest.&lt;/p&gt;
-
-&lt;h4 id=&quot;tools&quot;&gt;Tools:&lt;/h4&gt;
+&lt;h4 id=&quot;tools-used&quot;&gt;Tools used:&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Sketch&lt;/li&gt;
   &lt;li&gt;Principle&lt;/li&gt;
-  &lt;li&gt;inVision&lt;/li&gt;
+  &lt;li&gt;InVision&lt;/li&gt;
   &lt;li&gt;Zeplin&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Process
-We worked in-house with the creative process. Sketching, thinking and interviewing. At the end of every deadline, we presented ideas and made proposals. Always one sprint ahead.&lt;/p&gt;
+&lt;h4 id=&quot;process&quot;&gt;Process&lt;/h4&gt;
+&lt;p&gt;We worked in-house with the creative process. Sketching, thinking and interviewing. At the end of every deadline, we presented ideas and made proposals. Always one sprint ahead.&lt;/p&gt;
 
-&lt;p&gt;For every successful sign-off, we then produced wireframes, visual assets and guidelines for developers to implement. I also took on the challenge of animating the app using Principle.&lt;/p&gt;
+&lt;p&gt;For every successful sign-off, we then produced wireframes, visual assets and guidelines for developers. I also took on the challenge of animating the app using Principle, used for external usability testing.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;http://localhost:4000/images/astrazeneca-turbu-1.jpg&quot; alt=&quot;Phones with Turbu+ App&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;As soon as the updated version of the app is released I will add more visuals.&lt;/p&gt;
+&lt;p&gt;As soon as the updated version of the app is released, I will add more visuals.&lt;/p&gt;
 
 &lt;h4 id=&quot;in-retrospect&quot;&gt;In retrospect:&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;There are many regulations within the healthcare&lt;/li&gt;
-  &lt;li&gt;The art of getting your design approved when dealing with a lot of stakeholders&lt;/li&gt;
-  &lt;li&gt;Arguing for the impact of design in a fairly conservative market&lt;/li&gt;
-  &lt;li&gt;How to merge two completely different apps into one’s such an interesting field with endless possibilities&lt;/li&gt;
+  &lt;li&gt;The art of getting your design approved when dealing with many stakeholders&lt;/li&gt;
+  &lt;li&gt;Arguing for the impact of design in a somewhat conservative market&lt;/li&gt;
+  &lt;li&gt;How to merge two completely different apps into one’s such an exciting field with endless possibilities.&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Andreas Ringedal</name></author><summary type="html">UX/UI Design</summary></entry><entry><title type="html">My AEG App</title><link href="http://localhost:4000/electrolux/" rel="alternate" type="text/html" title="My AEG App" /><published>2016-07-14T13:20:34+02:00</published><updated>2016-07-14T13:20:34+02:00</updated><id>http://localhost:4000/electrolux</id><content type="html" xml:base="http://localhost:4000/electrolux/">&lt;p class=&quot;disclaimer&quot;&gt;Information provided here does not necessarily reflect the views of Electrolux or inUse.&lt;/p&gt;
 
-&lt;p&gt;Electrolux is transitioning into the digital era by making connectivity and Internet of Things a priority. They had a low-fidelity interactive prototype for controlling a washing machine via a smartphone app. I was hired together with a colleague to perform usability tests, highlight problems and make suggestions for improvements.&lt;/p&gt;
+&lt;p&gt;Electrolux is transitioning into the digital era by making connectivity and Internet of Things a priority. They had developed a low-fidelity prototype for controlling a washing machine via a smartphone app. I was hired together with a colleague from inUse to perform usability tests, highlight problems and make suggestions for improvements.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;http://localhost:4000/images/electrolux-aeg-app-1.jpg&quot; alt=&quot;Three phones with prototype interface used for usability testing&quot; /&gt;
@@ -71,29 +69,17 @@ We worked in-house with the creative process. Sketching, thinking and interviewi
   &lt;li&gt;Write scripts and questionnaires&lt;/li&gt;
   &lt;li&gt;Set test environment&lt;/li&gt;
   &lt;li&gt;Perform tests&lt;/li&gt;
-  &lt;li&gt;Identify problem areas with the app&lt;/li&gt;
+  &lt;li&gt;Identify problem areas&lt;/li&gt;
   &lt;li&gt;Deliver test summary&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;As always when it comes to usability testing (which is also the fun part), be prepared for the unexpected and be totally open towards how other resonate. For these tests, a methodology developed by designers from Electrolux were used, measuring effectiveness, efficiency and satisfaction for every task.&lt;/p&gt;
+&lt;p&gt;As always when it comes to usability testing (which is also the fun part), be prepared for the unexpected and be curious how other resonate. For these tests, a methodology developed by designers from Electrolux were used, measuring effectiveness, efficiency and satisfaction for every task.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;http://localhost:4000/images/acreo-ux-lab-2.jpg&quot; alt=&quot;Acreo UX lab&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Tests were done in Acreo’s UX Lab in Stockholm. When arranging the setting we gave top priority to catch and record the phone’s screen to see how participants interacted as well as looking at hand gestures. Secondly, we had one camera focusing on the face to catch facial expressions. The microphone was hidden in the towel behind the screen.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/images/acreo-ux-lab-1.jpg&quot; alt=&quot;Acreo UX lab&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Cameras, microphones and a big see-through mirror for spectators to watch the test. Although participants weren’t aware of the number of people watching they did sense the presence of others. It was a challenge to make participants feel comfortable doing the test, especially for the part when they pretended to operate the washing machine by clicking on a paper prototype.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/images/acreo-ux-lab-3.jpg&quot; alt=&quot;Acreo UX lab&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Usually, you quickly get a feeling for what most participants are going to struggle with. It’s easy to judge too quickly and draw conclusions but as long as you continue to ask open questions and make sure the participant is thinking aloud, the unexpected insights will come.&lt;/p&gt;
+&lt;p&gt;Tests were held in Acreo’s UX Lab in Stockholm. When arranging the setting, our top priority was to record the phone’s screen to see how participants interacted as well as catching hand gestures. Secondly, we had one camera focusing on the participants face to capture facial expressions. For audio recording, we had a hidden microphone inside a folded towel.&lt;/p&gt;
 
 &lt;h4 id=&quot;test-procedure&quot;&gt;Test procedure:&lt;/h4&gt;
 &lt;ol&gt;
@@ -104,20 +90,31 @@ We worked in-house with the creative process. Sketching, thinking and interviewi
   &lt;li&gt;Semi-structured post-use interview&lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/images/acreo-ux-lab-1.jpg&quot; alt=&quot;Acreo UX lab&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Although participants weren’t aware of the number of people watching they did sense the presence of others. It was a challenge to make participants feel comfortable doing the test, especially for the part when they pretended to operate a washing machine by clicking on a paper prototype.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/images/acreo-ux-lab-3.jpg&quot; alt=&quot;Acreo UX lab&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Usually, you quickly get a feeling for in what part of the test most test persons are going to struggle. It’s easy to judge too soon and draw conclusions, but as long as you continue to ask open questions and make sure they resonate about their actions, the unexpected insights will come.&lt;/p&gt;
+
 &lt;h4 id=&quot;in-retrospect&quot;&gt;In retrospect:&lt;/h4&gt;
 &lt;ul&gt;
-  &lt;li&gt;Usability testing is necessary and fun&lt;/li&gt;
-  &lt;li&gt;This is how you catch the unexpected insights early&lt;/li&gt;
-  &lt;li&gt;A well-structured test and report have a bigger impact within the organization&lt;/li&gt;
+  &lt;li&gt;Usability testing is how you catch the unexpected ideas early&lt;/li&gt;
+  &lt;li&gt;A well-structured test and report have a more significant impact within the organisation&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;http://localhost:4000/images/electrolux-aeg-app-2.jpg&quot; alt=&quot;Phone with AEG My App interface&quot; /&gt;
 &lt;/figure&gt;</content><author><name>Andreas Ringedal</name></author><summary type="html">Usability testing</summary></entry><entry><title type="html">MEMOPlanner</title><link href="http://localhost:4000/abilia/" rel="alternate" type="text/html" title="MEMOPlanner" /><published>2015-07-14T13:20:34+02:00</published><updated>2015-07-14T13:20:34+02:00</updated><id>http://localhost:4000/abilia</id><content type="html" xml:base="http://localhost:4000/abilia/">&lt;p class=&quot;disclaimer&quot;&gt;Information provided here does not necessarily reflect the views of Abilia or Sigma IT.&lt;/p&gt;
 
-&lt;p&gt;Is the web really for everyone? No, it’s not. There is a group of people who are foreseen by not being able to browse websites nor use apps because of their special needs. Abilia develop products to make sure these people become more independent and can take control of their everyday life.&lt;/p&gt;
+&lt;p&gt;Is the web really for everyone? No, it’s not. There is a group of people who are foreseen by not being able to browse websites nor use apps like most of do on a daily basis. Abilia develop products to make sure these people become more independent and can take control of their everyday life.&lt;/p&gt;
 
-&lt;p&gt;I was Design Lead in the work with developing the new version of MEMOPlanner, helping people with cognitive impairments become more independent in their life.&lt;/p&gt;
+&lt;p&gt;I was Design Lead for the work in developing the new version of MEMOPlanner, helping people with cognitive impairments become more independent in their life.&lt;/p&gt;
 
 &lt;h4 id=&quot;goals&quot;&gt;Goals:&lt;/h4&gt;
 &lt;ul&gt;
@@ -133,9 +130,9 @@ We worked in-house with the creative process. Sketching, thinking and interviewi
   &lt;img src=&quot;http://localhost:4000/images/abilia-memoplanner-1.jpg&quot; alt=&quot;Tablet with MEMOPlanner app&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;A person with a cognitive disorder can be affected in different ways. Abilities such as learning, memory, perception and problem solving can be heavily reduced. Not being able to structure the day might lead to stress and anxiety.&lt;/p&gt;
+&lt;p&gt;A cognitive disorder can affect a person in different ways such as experiencing difficulties with learning, memory, perception and problem-solving. Not being able to structure the day might lead to stress and anxiety.&lt;/p&gt;
 
-&lt;p&gt;It’s a scattered user group as there is a wide spectrum of how functional users are. Some people need a friendly reminder about daily activities while others need help with remembering what day it is and getting help with when to eat.&lt;/p&gt;
+&lt;p&gt;It’s a separate user group as there is a broad spectrum of how functional users are. Some people need a friendly reminder about daily activities while others need help with remembering what day it is and getting help with when to eat.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;http://localhost:4000/images/abilia-memoplanner-2.jpg&quot; alt=&quot;Tablet with MEMOPlanner app&quot; /&gt;
@@ -149,11 +146,9 @@ We worked in-house with the creative process. Sketching, thinking and interviewi
   &lt;li&gt;Final design&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Due to regulations, no usability testing could be done with the main target group until afterwards. Decisions were made based on design hypotheses sprung from research and best praxis.&lt;/p&gt;
+&lt;p&gt;No usability testing, with the primary user group, could be done until after product launch due to regulations. Design decisions were based on hypotheses supported by research and best practice.&lt;/p&gt;
 
-&lt;p&gt;I started by reading literature and interviewing internally, focusing on the difference between mild and severe cognitive disabilities and the general problem people within the spectrum experience.&lt;/p&gt;
-
-&lt;p&gt;That led me to define several design hypotheses which would guide me during the concept phase.&lt;/p&gt;
+&lt;p&gt;I started by reading literature and interviewing internally, focusing on trying to understand the difference between mild and severe cognitive disabilities. It gave me a general picture of what problems people within the group experience and I could then form hypotheses.&lt;/p&gt;
 
 &lt;h4 id=&quot;tools&quot;&gt;Tools:&lt;/h4&gt;
 &lt;ul&gt;
@@ -185,4 +180,84 @@ We worked in-house with the creative process. Sketching, thinking and interviewi
   &lt;li&gt;Everyone has the right to have a digital life&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;iframe src=&quot;https://www.youtube.com/embed/f8E_wsJEo2s?rel=0&amp;amp;showinfo=0&quot; width=&quot;100%&quot; height=&quot;436px&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</content><author><name>Andreas Ringedal</name></author><summary type="html">Design Lead</summary></entry></feed>
+&lt;iframe src=&quot;https://www.youtube.com/embed/f8E_wsJEo2s?rel=0&amp;amp;showinfo=0&quot; width=&quot;100%&quot; height=&quot;436px&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</content><author><name>Andreas Ringedal</name></author><summary type="html">Design Lead</summary></entry><entry><title type="html">Volvo Cars</title><link href="http://localhost:4000/volvocars/" rel="alternate" type="text/html" title="Volvo Cars" /><published>2014-07-14T13:20:34+02:00</published><updated>2014-07-14T13:20:34+02:00</updated><id>http://localhost:4000/volvocars</id><content type="html" xml:base="http://localhost:4000/volvocars/">&lt;p class=&quot;disclaimer&quot;&gt;This project was in collaboration between Linköping University, Tongji University and Volvo Cars.&lt;/p&gt;
+
+&lt;p&gt;Before earning my MSc degree, I did my final project on the subject of trying to understand the underlying facts behind why 9000 children die every year in traffic accidents in China. Volvo Cars have always been at the top in regards to car safety and wanted to know how they can have a positive impact on an emerging market.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/images/th_1.png&quot; alt=&quot;Comparison of traffic child mortality between China and USA&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Together with my fellow researcher/classmate  Emma Nyström, we headed to Shanghai with the question “How to increase the usage of child restraint systems (child seats) in China?”.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/images/th_4.png&quot; alt=&quot;Project methodology&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;the-project-consisted-of-three-parts&quot;&gt;The project consisted of three parts:&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Research&lt;/li&gt;
+  &lt;li&gt;Synthesis&lt;/li&gt;
+  &lt;li&gt;Action&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/images/th_3.png&quot; alt=&quot;Map of important cities in China&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It was a research-heavy project. More than 60 qualitative interviews with families in tier 1, 2 and 3 cities were carried out.  In the quest of identifying underlying patterns towards questionable attitudes towards traffic safety, this was unique research material.&lt;/p&gt;
+
+&lt;p&gt;We got help from an excellent team (Su Ao and Zhou Qian) with interviews, transcriptions and everything we needed for the synthesis and coding of the qualitative data.&lt;/p&gt;
+
+&lt;p&gt;There were two main findings from the interviews. Lack of knowledge about what implications a car accident has and the power of the “little emperor”. Families who had spent time abroad had a better understanding of the consequences a car accident brings. Little emperor refers to the (often only) child in the family who’s comfort were put first.&lt;/p&gt;
+
+&lt;p&gt;The action part of the project was to propose a potential solution to the problem of changing behaviour among parents. We ended up presenting the concept “Child Safety Circle”, an information campaign about learning and educating your inner circle.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/images/th_7.png&quot; alt=&quot;Child Safety Circle&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If you are interested in reading more about the study and the final solution the publication can be found &lt;a href=&quot;http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-108734&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/images/th_6.png&quot; alt=&quot;Screenshot of Child Safety Circle conceptual website&quot; /&gt;
+&lt;/figure&gt;</content><author><name>Andreas Ringedal</name></author><summary type="html">Design Research</summary></entry><entry><title type="html">Occalight</title><link href="http://localhost:4000/desis/" rel="alternate" type="text/html" title="Occalight" /><published>2013-07-14T13:20:34+02:00</published><updated>2013-07-14T13:20:34+02:00</updated><id>http://localhost:4000/desis</id><content type="html" xml:base="http://localhost:4000/desis/">&lt;p&gt;I participated in a month-long workshop organised by the DESIS Network in China, whose vision is to practice design thinking while performing global social innovation.&lt;/p&gt;
+
+&lt;h4 id=&quot;workshop-brief&quot;&gt;Workshop brief:&lt;/h4&gt;
+&lt;p&gt;“Object that carries Culture: designing an artefact for the rural ways of living”.  Here, culture has two meanings: local heritage and the latest technology. The result of the workshop will be a part of Shanghai Design Week and Nordic Design Week in Shanghai 2013.&lt;/p&gt;
+
+&lt;p&gt;I teamed up with two students from Tongji University, and together we spent the first two weeks in the Chinese countryside interviewing local artisans and learned about Chinese culture and history.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/images/desis_1.jpg&quot; alt=&quot;Man carving in bamboo&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;research-learnings&quot;&gt;Research learnings:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Locals were proud of their heritage&lt;/li&gt;
+  &lt;li&gt;Even though living a simple life they were pleased&lt;/li&gt;
+  &lt;li&gt;They were worried about younger people moving into cities&lt;/li&gt;
+  &lt;li&gt;Many city-people had never been out on the countryside&lt;/li&gt;
+  &lt;li&gt;Nature has a symbolic meaning in Chinese culture but is starting to be forgotten by the younger generation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For the second part of the workshop, we went back to Shanghai and started exploring ideas for our final concept. When combining the research insights with the project brief, we identified three fundamental questions to investigate.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;How can urban kids learn about craftsmanships?&lt;/li&gt;
+  &lt;li&gt;How can we bridge the gap between urban and rural people?&lt;/li&gt;
+  &lt;li&gt;How can we make sure that people from cities take time to visit the countryside?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We quickly got hooked on the idea of using lights when we pondered back on the starry sky and all the fireflies in the countryside. If there were a way to be remembered about that special occasion or any other particular moment which were only accessible outside the city. Some iterations later we had an idea we were confident with and moved on.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/images/desis_3.jpg&quot; alt=&quot;Light installation concept in Shanghai&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We named our final concept The Occalight which was an installation art concept consisting of handmade lamps to hang in city parks and which changed colours depending on what was happening in the nearby countryside. For instance, when the lavenders were blooming the lights would be purple, and people who were strolling by could use their smartphones and get information about the event and how to get there to experience it themselves.&lt;/p&gt;
+
+&lt;p&gt;The concept was also meant to be directed towards kids since they could be part of producing the lamps as an after-school activity. The material would be bamboo from local areas which were laser cut and made into pieces for them to assemble,  like a 3D puzzle.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/images/desis_2.jpg&quot; alt=&quot;3D puzzle&quot; /&gt;
+&lt;/figure&gt;</content><author><name>Andreas Ringedal</name></author><summary type="html">Social innovation</summary></entry></feed>

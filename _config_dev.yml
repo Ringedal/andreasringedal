@@ -21,7 +21,7 @@ footer-description: >-
 # Build settings
 markdown: kramdown
 theme: minima
-permalink: /:slug/
+permalink: /:slug
 plugins:
   - jekyll-feed
 
