@@ -23,11 +23,15 @@ Electrolux is transitioning into the digital era by making connectivity and Inte
 * Identify problem areas
 * Deliver test summary
 
+{% include figure.html file="electrolux-aeg-app-3.gif" alt="Sample of interaction" %}
+
 As always when it comes to usability testing (which is also the fun part), be prepared for the unexpected and be curious how other resonate. For these tests, a methodology developed by designers from Electrolux were used, measuring effectiveness, efficiency and satisfaction for every task.
 
 {% include figure.html file="acreo-ux-lab-2.jpg" alt="Acreo UX lab" %}
 
 Tests were held in Acreo's UX Lab in Stockholm. When arranging the setting, our top priority was to record the phone's screen to see how participants interacted as well as catching hand gestures. Secondly, we had one camera focusing on the participants face to capture facial expressions. For audio recording, we had a hidden microphone inside a folded towel.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x709_xVmfo4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 #### Test procedure:
 1. Background questionnaire

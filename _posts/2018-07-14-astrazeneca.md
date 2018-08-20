@@ -28,6 +28,8 @@ I worked together with colleagues from inUse with implementing new functionality
 
 For this release, the primary focus was on self-enrollment and symptom tracking.
 
+{% include figure.html file="astrazeneca-turbu-2.png" alt="Turbu+ wireframe" %}
+
 #### Platforms:
 * iOS
 * Android
@@ -38,6 +40,8 @@ The self-enrollment sequence was more complex from a technical viewpoint. From a
 The user does symptom tracking, and the idea of symptom tracking itself was more complicated since everyone is different and experience his or her symptoms in different ways. We spoke to specialists in the field to boil it down to something tangible and useful for the users. Some weeks before the project deadline, the managers decided to bring in a ready solution for symptom tracking as it was clinically tested and approved, a significant factor for companies in the medical field.
 
 The upside was that our solutions were more or less the same, at least an ego boost. The flip-side was that our UI patterns were completely different. Reminding time of the project we focused on finding ways for how to implement the complete solution and make sure it would have the same look and feel like the overall GUI.
+
+{% include figure.html file="astrazeneca-turbu-3.gif" alt="Turbu+ animation" %}
 
 #### Tools used:
 * Sketch
@@ -51,8 +55,6 @@ We worked in-house with the creative process. Sketching, thinking and interviewi
 For every successful sign-off, we then produced wireframes, visual assets and guidelines for developers. I also took on the challenge of animating the app using Principle, used for external usability testing.
 
 {% include figure.html file="astrazeneca-turbu-1.jpg" alt="Phones with Turbu+ App" %}
-
-As soon as the updated version of the app is released, I will add more visuals.
 
 #### In retrospect:
 * There are many regulations within the healthcare
