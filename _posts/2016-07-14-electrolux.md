@@ -31,7 +31,7 @@ As always when it comes to usability testing (which is also the fun part), be pr
 
 Tests were held in Acreo's UX Lab in Stockholm. When arranging the setting, our top priority was to record the phone's screen to see how participants interacted as well as catching hand gestures. Secondly, we had one camera focusing on the participants face to capture facial expressions. For audio recording, we had a hidden microphone inside a folded towel.
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/x709_xVmfo4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/x709_xVmfo4?rel=0" allowfullscreen="" frameborder="0"></iframe>
 
 #### Test procedure:
 1. Background questionnaire
